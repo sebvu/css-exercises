@@ -20,6 +20,35 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  padding: 1em;
+
+  display: flex;
+  gap: 1em;
+}
+
+.modal-icon-container {
+  flex: none;
+}
+
+.main-content-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.modal-header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modal-options-container {
+
+}
+
+.header {
+  font-weight: bold;
+  font-size: 20px;
 }
 
 .icon {
